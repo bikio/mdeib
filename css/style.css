@@ -55,7 +55,7 @@ html, body {
   position: absolute;
   top: 0;
   left: 0;
-  background: #CDC9A5;
+  background-color: rgba(0,0,0, .7);
   height: 50px;
   width: 100%;
   z-index: 3;
@@ -88,7 +88,7 @@ html, body {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
     top: -80px;
-    background-color: #CDC9A5;
+    background: rgba(0,0,0, .7);
     -webkit-transition: -webkit-transform 0.3s;
     -moz-transition: -moz-transform 0.3s;
     transition: transform 0.3s;
@@ -103,7 +103,7 @@ html, body {
   }
   .cd-header.menu-is-open {
     /* add a background color to the header when the navigation is open */
-    background-color: #CDC9A5;
+    background-color: rgba(0,0,0, .7);
   }
 }
 
@@ -171,7 +171,7 @@ html, body {
   top: 0;
   height: 100%;
   width: 50px;
-  background-color: #CDC9A5;
+  background-color: transparent;
 }
 .cd-primary-nav-trigger .cd-menu-text {
   color: white;
@@ -277,7 +277,7 @@ html, body {
   top: 0;
   height: 100%;
   width: 100%;
-  background: #6E8B3D;
+  background: #8B7D6B;
   z-index: 2;
   text-align: center;
   padding: 50px 0;
@@ -319,11 +319,11 @@ html, body {
   background-color: #548B54;
 }
 .cd-primary-nav .cd-label {
-  color: #2E8B57;
+  color: #556B2F;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 14px;
-  font-size: 0.875rem;
+  font-size: 20px;
+  font-size: 1.3rem;
   margin: 2.4em 0 .8em;
 }
 .cd-primary-nav .cd-social {
@@ -371,8 +371,8 @@ html, body {
     font-size: 1.875rem;
   }
   .cd-primary-nav .cd-label {
-    font-size: 16px;
-    font-size: 1rem;
+    font-size: 20px;
+    font-size: 1.5rem;
   }
 }
 
@@ -399,8 +399,8 @@ html, body {
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   color: white;
-  background: rgba(0, 0, 0, 0.15);
-  padding: 10px;
+/*  background: rgba(0, 70, 0, 0.1);
+*/  padding: 10px;
   border-radius: 5px;
 /*  font-size: 50px;
 */  font-size: 2.5rem;
