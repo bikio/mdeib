@@ -25,6 +25,19 @@ a {
   text-decoration: none;
 }
 
+hr {
+  width: 25%;
+}
+
+/*.small-hr {
+  width: 5%;
+  margin-top: -1em;
+  margin-bottom: -1em;
+}*/
+.buy a {
+  color: #548B54;
+  font-size: 1.3em;
+}
 /* -------------------------------- 
 
 Modules - reusable parts of our design
@@ -376,6 +389,8 @@ html, body {
   }
 }
 
+
+
 .cd-intro {
   position: relative;
   height: 100%;
@@ -440,3 +455,5 @@ html, body {
     font-size: 1.25rem;
   }
 }
+
+
