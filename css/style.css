@@ -277,7 +277,7 @@ html, body {
   top: 0;
   height: 100%;
   width: 100%;
-  background: #CDC9A5;
+  background: #6E8B3D;
   z-index: 2;
   text-align: center;
   padding: 50px 0;
@@ -316,7 +316,7 @@ html, body {
   transition: background 0.2s;
 }
 .no-touch .cd-primary-nav a:hover {
-  background-color: #698B69;
+  background-color: #548B54;
 }
 .cd-primary-nav .cd-label {
   color: #2E8B57;
@@ -399,6 +399,9 @@ html, body {
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   color: white;
+  background: rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  border-radius: 5px;
 /*  font-size: 50px;
 */  font-size: 2.5rem;
   font-weight: 300;
@@ -422,8 +425,13 @@ html, body {
   position: relative;
   z-index: 1;
 }
+
+.cd-main-content-intro {
+  font-style: italic;
+}
 .cd-main-content p {
   line-height: 1.6;
+  text-align: center;
   margin: 2em 0;
 }
 @media only screen and (min-width: 1170px) {
