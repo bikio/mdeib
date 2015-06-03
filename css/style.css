@@ -50,6 +50,11 @@ Modules - reusable parts of our design
   clear: both;
 }
 
+.cd-primary-nav img {
+  width: 90px;
+  border-radius: 50%;
+}
+
 /* -------------------------------- 
 
 Main components 
@@ -423,7 +428,7 @@ html, body {
 /*  background: rgba(0, 70, 0, 0.1);
 */  padding: 10px;
 /*  font-size: 50px;
-*/  font-size: 3.5rem !important;
+*/  font-size: 3.0rem !important;
   font-weight: 300;
   text-align: center;
 }
@@ -454,7 +459,7 @@ h1.title {
   font-style: italic;
 }
 .cd-main-content p {
-  line-height: 1.4;
+  line-height: 1.45;
   text-align: center;
   margin: 2em 0;
   font-size: 1em;
