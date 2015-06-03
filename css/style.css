@@ -397,9 +397,9 @@ html, body {
 }
 .cd-intro h1 {
   position: absolute;
-  width: 95%;
-  max-width: 1170px;
-  left: 50%;
+  width: 100%;
+/*  max-width: 1170px;
+*/  left: 50%;
   top: 50%;
   bottom: auto;
   right: auto;
