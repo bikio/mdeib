@@ -11,7 +11,7 @@ Primary style
 
 body {
   font-size: 100%;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Reenie Beanie', cursive;
   color: rgba(2, 23, 37, 0.7);
   background-color: #FFF8DC;
 }
@@ -444,14 +444,15 @@ h1.title {
   font-style: italic;
 }
 .cd-main-content p {
-  line-height: 1.6;
+  line-height: 1.8;
   text-align: center;
   margin: 2em 0;
+  font-size: 1.3em;
 }
 @media only screen and (min-width: 1170px) {
   .cd-main-content p {
     font-size: 20px;
-    font-size: 1.25rem;
+    font-size: 1.45rem;
   }
 }
 
