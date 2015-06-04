@@ -430,7 +430,7 @@ img:hover {
   .congopic {
     position: relative;
     height: 100%;
-    background: url("../img/congo.jpg") no-repeat center center;
+    background: url("../img/trio.jpg") no-repeat center center;
     background-size: cover;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
@@ -440,7 +440,7 @@ img:hover {
   .shadow {
     position: relative;
     height: 100%;
-    background: url("../img/shadow.jpg") no-repeat center center;
+    background: url("../img/trio.jpg") no-repeat center center;
     background-size: cover;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
@@ -450,7 +450,7 @@ img:hover {
     .notes {
     position: relative;
     height: 100%;
-    background: url("../img/notes.jpg") no-repeat center center;
+    background: url("../img/trio.jpg") no-repeat center center;
     background-size: cover;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
