@@ -408,7 +408,7 @@ img:hover {
     position: relative;
     height: 100%;
     background: url("../img/vertbuff.jpg") no-repeat center center !important;
-    object-fit: cover;
+    background-size: cover;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -419,13 +419,22 @@ img:hover {
 .cd-intro {
   position: relative;
   height: 100%;
+/*  background: url("../img/buff.jpg") no-repeat center center;
+*/  background-size: cover;
+  z-index: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cd-intro-bio {
+  position: relative;
+  height: 100%;
   background: url("../img/buff.jpg") no-repeat center center;
   background-size: cover;
   z-index: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 
   .congopic {
     position: relative;
@@ -518,11 +527,23 @@ h1.title {
 }
 
 @media only screen and (max-width: 480px) {
+    .cd-intro-bio {
+    position: relative;
+    height: 100%;
+    background: url("../img/shadow.jpg") no-repeat center center !important;
+    background-size: cover;
+    z-index: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@media only screen and (max-width: 480px) {
     .congopic {
     position: relative;
     height: 100%;
     background: url("../img/congo.jpg") no-repeat center center !important;
-    object-fit: cover;
+    background-size: cover;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -534,7 +555,7 @@ h1.title {
     position: relative;
     height: 100%;
     background: url("../img/notes.jpg") no-repeat center center !important;
-    object-fit: cover;
+    background-size: cover;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -546,7 +567,7 @@ h1.title {
     position: relative;
     height: 100%;
     background: url("../img/shadow.jpg") no-repeat center center !important;
-    object-fit: cover;
+    background-size: cover;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
