@@ -26,7 +26,7 @@ a {
 }
 
 hr {
-  width: 25%;
+  width: 15%;
 }
 
 .buy a {
@@ -180,10 +180,13 @@ html, body {
     display: block;
   }
 }
-
+a.cd-primary-nav-trigger {
+  margin: 0 auto;
+}
 .cd-primary-nav-trigger {
   position: absolute;
   left: 0;
+  right: 0;
   top: 0;
   height: 100%;
   width: 50px;
@@ -263,7 +266,7 @@ html, body {
     background-color: transparent;
     height: 30px;
     line-height: 30px;
-    right: 2.2em;
+    right: 0;
     top: 50%;
     bottom: auto;
     -webkit-transform: translateY(-50%);
@@ -480,8 +483,8 @@ img:hover {
 }
 
 h1.title {
-  background: rgba(0,20, 0, .8);
-  font-size: 1.7rem !important;
+  background: rgba(0,20, 0, .9);
+  font-size: 1.8rem !important;
 }
 
 @media only screen and (min-width: 768px) {
