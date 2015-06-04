@@ -517,4 +517,39 @@ h1.title {
   }
 }
 
+@media only screen and (max-width: 480px) {
+    .congopic {
+    position: relative;
+    height: 100%;
+    background: url("../img/congo.jpg") no-repeat center center !important;
+    object-fit: cover;
+    z-index: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+    .notes {
+    position: relative;
+    height: 100%;
+    background: url("../img/notes.jpg") no-repeat center center !important;
+    object-fit: cover;
+    z-index: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+    .shadow {
+    position: relative;
+    height: 100%;
+    background: url("../img/shadow.jpg") no-repeat center center !important;
+    object-fit: cover;
+    z-index: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
 
