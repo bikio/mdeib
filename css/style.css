@@ -11,6 +11,7 @@ Primary style
 
 body {
   font-size: 100%;
+  background-color: #EEF3E2;
    font-family: "Source Sans Pro", sans-serif;
   color: rgba(2, 23, 37, 0.7);
 /*  background-color: #FFF8DC;
@@ -335,14 +336,13 @@ a.cd-primary-nav-trigger {
   -moz-transition: background 0.2s;
   transition: background 0.2s;
 }
-.no-touch .cd-primary-nav a:hover {
+.no-touch .cd-primary-nav li:hover {
   background-color: #548B54;
 }
 
-img:hover {
-  background-color: transparent !important;
+.no-touch .cd-primary-nav li:first-child:hover {
+  background-color: transparent;
 }
-
 
 /*.no-touch .cd-primary-nav img:hover {
   background-color: white;
@@ -566,5 +566,5 @@ h1.title {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }*/
-}
+
 
