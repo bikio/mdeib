@@ -323,6 +323,7 @@ html, body {
   margin: .2em 0;
   text-transform: capitalize;
 }
+
 .cd-primary-nav a {
   display: inline-block;
   padding: .4em 1em;
@@ -334,6 +335,16 @@ html, body {
 .no-touch .cd-primary-nav a:hover {
   background-color: #548B54;
 }
+
+img:hover {
+  background-color: transparent !important;
+}
+
+
+/*.no-touch .cd-primary-nav img:hover {
+  background-color: white;
+}*/
+
 .cd-primary-nav .cd-label {
   color: #556B2F;
   text-transform: uppercase;
@@ -408,7 +419,7 @@ html, body {
 .cd-intro {
   position: relative;
   height: 100%;
-  background: url("../img/buff.jpg") no-repeat center center;
+  background: url("../img/congo.jpg") no-repeat center;
   background-size: cover;
   z-index: 1;
   -webkit-font-smoothing: antialiased;
@@ -437,7 +448,7 @@ html, body {
 }
 
 h1.title {
-  background: rgba(0,20, 0, .5);
+  background: rgba(0,20, 0, .8);
   font-size: 1.7rem !important;
 }
 
@@ -462,7 +473,7 @@ h1.title {
   font-style: italic;
 }
 .cd-main-content p {
-  line-height: 1.45;
+  line-height: 1.65;
   text-align: center;
   margin: 2em 0;
   font-size: 1em;
@@ -470,7 +481,7 @@ h1.title {
 @media only screen and (min-width: 1170px) {
   .cd-main-content p {
     font-size: 20px;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
