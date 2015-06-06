@@ -297,7 +297,7 @@ a.cd-primary-nav-trigger {
   top: 0;
   height: 100%;
   width: 100%;
-  background: #8B7D6B;
+  background: #698B69;
   z-index: 2;
   text-align: center;
   padding: 50px 0;
@@ -336,17 +336,6 @@ a.cd-primary-nav-trigger {
   -moz-transition: background 0.2s;
   transition: background 0.2s;
 }
-.no-touch .cd-primary-nav li:hover {
-  background-color: #548B54;
-}
-
-.no-touch .cd-primary-nav li:first-child:hover {
-  background-color: transparent;
-}
-
-/*.no-touch .cd-primary-nav img:hover {
-  background-color: white;
-}*/
 
 .cd-primary-nav .cd-label {
   color: #556B2F;
