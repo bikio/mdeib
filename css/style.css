@@ -12,7 +12,7 @@ Primary style
 body {
   font-size: 100%;
   background-color: #EEF3E2;
-   font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Special Elite', cursive;
   color: rgba(2, 23, 37, 0.7);
 /*  background-color: #FFF8DC;
 */}
@@ -83,7 +83,7 @@ html, body {
 @media only screen and (min-width: 768px) {
   .cd-header {
     height: 80px;
-    background: transparent;
+    background-color: rgba(0,0,0, .8);
     box-shadow: none;
   }
 }
@@ -195,8 +195,7 @@ a.cd-primary-nav-trigger {
 }
 .cd-primary-nav-trigger .cd-menu-text {
   color: white;
-  text-transform: uppercase;
-  font-weight: 700;
+  font-size: 1em;
   /* hide the text on small devices */
   display: none;
 }
