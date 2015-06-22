@@ -470,10 +470,14 @@ a.cd-primary-nav-trigger {
   text-align: center;
 }
 
-h1.title {
+.book-title {
+  text-align: center;
+  font-size: 2rem;
+}
+/*h1.title {
   background: rgba(0,20, 0, .9);
   font-size: 1.8rem !important;
-}
+}*/
 
 @media only screen and (min-width: 768px) {
   .cd-intro h1 {
