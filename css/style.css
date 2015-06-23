@@ -469,7 +469,22 @@ a.cd-primary-nav-trigger {
   font-weight: 300;
   text-align: center;
 }
+.cd-intro p {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  width: 100%;
+  top: 45%;
+  color: white;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
 
+}
 .book-title {
   text-align: center;
   font-size: 2rem;
