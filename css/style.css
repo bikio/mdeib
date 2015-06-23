@@ -27,7 +27,7 @@ a {
 }
 
 hr {
-  width: 15%;
+  width: 10%;
 }
 
 .buy a {
@@ -488,6 +488,7 @@ a.cd-primary-nav-trigger {
 .book-title {
   text-align: center;
   font-size: 2rem;
+  margin-bottom: 70px;
 }
 /*h1.title {
   background: rgba(0,20, 0, .9);
