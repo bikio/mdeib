@@ -55,6 +55,7 @@ Modules - reusable parts of our design
 .cd-primary-nav img {
   height: 110px;
   border-radius: 50%;
+  border: 8px solid tan;
   margin-top: 15px;
   margin-bottom: -30px;
 }
