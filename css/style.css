@@ -515,6 +515,10 @@ h2.book-country {
   color: #8B795E;
 }
 
+.artie:last-child {
+  margin-bottom: 50px !important;
+}
+
 @media only screen and (min-width: 768px) {
   .cd-intro h1 {
     font-size: 3rem;
