@@ -493,7 +493,6 @@ a.cd-primary-nav-trigger {
 .arties {
   text-align: center;
   font-size: 2rem;
-  margin-bottom: 70px;
   color: #555555;
 }
 
@@ -501,6 +500,10 @@ a.cd-primary-nav-trigger {
   text-align: center;
   font-size: 1.4rem;
   color: #698B69;
+}
+
+h2.book-country {
+  margin-top: 50px;
 }
 
 .artie {
