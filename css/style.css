@@ -11,11 +11,10 @@ Primary style
 
 body {
   font-size: 100%;
-  background-color: #EEF3E2;
+  background: url(../img/map.png);
   font-family: 'Special Elite', cursive;
   color: rgba(2, 23, 37, 0.7);
-/*  background-color: #FFF8DC;
-*/}
+}
 body.overflow-hidden {
   /* when primary navigation is visible, the content in the background won't scroll */
   overflow: hidden;
