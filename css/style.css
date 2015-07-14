@@ -355,8 +355,7 @@ a.cd-primary-nav-trigger {
   margin: 2.4em 0 .8em;
 }
 
-/*.cd-primary-nav */.cd-label a:last-child {
-  margin-top: -15px;
+.cd-label a:last-child {
   color: #CDC0B0 !important;
 }
 
