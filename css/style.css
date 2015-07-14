@@ -355,9 +355,9 @@ a.cd-primary-nav-trigger {
   margin: 2.4em 0 .8em;
 }
 
-.cd-primary-nav .cd-label:last-child {
-  margin-bottom: -20px;
-  margin-top: 35px;
+/*.cd-primary-nav */.cd-label a:last-child {
+  margin-top: -15px;
+  color: #CDC0B0 !important;
 }
 
 .cd-primary-nav .cd-social {
