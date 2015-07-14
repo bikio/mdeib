@@ -110,7 +110,7 @@ html, body {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
     top: -80px;
-    background: rgba(0,20,0, .98);
+    background: rgba(10,25,10, .8);
     -webkit-transition: -webkit-transform 0.3s;
     -moz-transition: -moz-transform 0.3s;
     transition: transform 0.3s;
@@ -125,7 +125,7 @@ html, body {
   }
   .cd-header.menu-is-open {
     /* add a background color to the header when the navigation is open */
-    background-color: rgba(0,0,0, .7);
+    background-color: rgba(0,0,0, .4);
   }
 }
 
