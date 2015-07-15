@@ -77,7 +77,7 @@ html, body {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(0,0,0, .7);
+  background-color: rgba(0,20,0, .7);
   height: 50px;
   width: 100%;
   z-index: 3;
@@ -540,10 +540,6 @@ h2.book-country {
     font-size: 3rem;
   }
 
-  h1.title {
-  background: rgba(0,20, 0, .9);
-  font-size: 3rem !important;
-}
 }
 @media only screen and (min-width: 1170px) {
   .cd-intro {
